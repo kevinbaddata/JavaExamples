@@ -7,12 +7,17 @@ public class sorting {
         // order them
         // eg user entered 3, 2, 4 ,1 and 5
         // output is 1,2,3,4,5
+
+        // Cleans the Terminal from text
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+
         Scanner scanner = new Scanner(System.in);
 
         int count = 0;
         int a, b, c, d, e;
 
-        // Prompt the user to enter three floating-point numbers
+        // Prompt the user to enter five integer-point numbers
         System.out.println("Please enter five numbers:");
         a = scanner.nextInt();
         b = scanner.nextInt();
