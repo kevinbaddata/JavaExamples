@@ -34,7 +34,7 @@ public class areac {
                 System.out.println("Lenght =>" + lenght);
 
             } else {
-                System.out.println("Wrong choice");
+                System.out.println("WRONG CHOICE");
             }
         }
 
